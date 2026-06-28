@@ -5,9 +5,12 @@
 ```
 Company:     Fencing Huntsville AL
 Domain:      fencinghuntsvilleal.com
-Location:    Huntsville, AL + Madison, Decatur, Athens, Owens Cross Roads
+Location:    Huntsville, AL + Madison, Athens, Decatur, Harvest, Hazel Green,
+             Owens Cross Roads, Hampton Cove, Meridianville, New Market,
+             Hartselle, Florence
 Tagline:     Huntsville's Trusted Fence Experts
 Voice:       Professional, local pride, helpful, straightforward
+Architecture: SEO Silo — Services / Locations / Resources
 ```
 
 ---
@@ -56,47 +59,85 @@ Buttons:    Montserrat 600 (semi-bold)
 
 ---
 
-## Page Structure
+## Site Architecture — SEO Silo
 
-### Core Pages (16)
+```
+Homepage
+├── Service Pages (hub → 15 individual service pages)
+├── Location Pages (hub → 13 city pages)
+├── Educational Resource Center (hub → 11 categories)
+├── About Us
+├── Gallery / Portfolio
+├── Testimonials / Reviews
+├── Contact
+├── Free Estimate
+└── Privacy Policy / Terms
+```
+
+### Service Pages
+
+| # | Page | URL |
+|---|------|-----|
+| 1 | **Services (hub)** | `/services/` |
+| 2 | **Wood Fencing** | `/wood-fencing/` |
+| 3 | **Vinyl Fencing** | `/vinyl-fencing/` |
+| 4 | **Aluminum Fencing** | `/aluminum-fencing/` |
+| 5 | **Chain Link Fencing** | `/chain-link-fencing/` |
+| 6 | **Privacy Fencing** | `/privacy-fencing/` |
+| 7 | **Commercial Fencing** | `/commercial-fencing/` |
+| 8 | **Residential Fencing** | `/residential-fencing/` |
+| 9 | **Farm Fence** | `/farm-fence/` |
+| 10 | **Pool Fence** | `/pool-fence/` |
+| 11 | **Fence Repair** | `/fence-repair/` |
+| 12 | **Fence Replacement** | `/fence-replacement/` |
+| 13 | **Fence Financing** | `/fence-financing/` |
+| 14 | **Automatic Gates** | `/automatic-gates/` |
+| 15 | **Custom Gates** | `/custom-gates/` |
+| 16 | **Gate Repair** | `/gate-repair/` |
+
+### Location Pages (13 cities)
+
+| # | City | URL |
+|---|------|-----|
+| 1 | Huntsville | `/huntsville-fence-company/` |
+| 2 | Madison | `/madison-fence-company/` |
+| 3 | Athens | `/athens-fence-company/` |
+| 4 | Decatur | `/decatur-fence-company/` |
+| 5 | Harvest | `/harvest-fence-company/` |
+| 6 | Hazel Green | `/hazel-green-fence-company/` |
+| 7 | Owens Cross Roads | `/owens-cross-roads-fence-company/` |
+| 8 | Hampton Cove | `/hampton-cove-fence-company/` |
+| 9 | Meridianville | `/meridianville-fence-company/` |
+| 10 | New Market | `/new-market-fence-company/` |
+| 11 | Hartselle | `/hartselle-fence-company/` |
+| 12 | Florence | `/florence-fence-company/` |
+
+### Educational Resource Center
+
+| # | Category | URL |
+|---|----------|-----|
+| 1 | Buying Guides | `/resources/buying-guides/` |
+| 2 | Fence Costs | `/resources/fence-costs/` |
+| 3 | Permits | `/resources/permits/` |
+| 4 | HOA Rules | `/resources/hoa-rules/` |
+| 5 | Fence Maintenance | `/resources/maintenance/` |
+| 6 | Materials | `/resources/materials/` |
+| 7 | Fence Financing | `/resources/financing/` |
+| 8 | Property Lines | `/resources/property-lines/` |
+| 9 | Contractor Tips | `/resources/contractor-tips/` |
+| 10 | Comparison Articles | `/resources/comparisons/` |
+| 11 | FAQs | `/faq/` |
+
+### Core Pages
 
 | # | Page | URL | Purpose |
 |---|------|-----|---------|
-| 1 | **Home** | `/` | Hero, services overview, social proof, CTA |
-| 2 | **About** | `/about/` | Local story, team, licenses, years in biz |
-| 3 | **Services** | `/services/` | Hub linking to all fence type pages |
-| 4 | **Wood Fencing** | `/wood-fencing/` | Dedicated page |
-| 5 | **Chain Link Fencing** | `/chain-link-fencing/` | Dedicated page |
-| 6 | **Wrought Iron / Aluminum** | `/wrought-iron-fencing/` | Dedicated page |
-| 7 | **Vinyl / Composite** | `/vinyl-fencing/` | Dedicated page |
-| 8 | **Gates & Automation** | `/gates/` | High-value add-on |
-| 9 | **Gallery** | `/gallery/` | Categorized by fence type |
-| 10 | **Testimonials** | `/testimonials/` | Google reviews, written testimonials |
-| 11 | **Contact** | `/contact/` | Form, phone, map, hours |
-| 12 | **Service Area** | `/service-area/` | Huntsville, Madison, Decatur, Athens + map |
-| 13 | **FAQ** | `/faq/` | Cost, timeline, permits, HOA questions |
-| 14 | **Free Estimate** | `/free-estimate/` | Dedicated quote landing page |
-| 15 | **Blog** | `/blog/` | Local fence content, tips, guides |
-| 16 | **Privacy Policy** | `/privacy-policy/` | Legal |
-
-### Competitive Advantage Pages
-
-| # | Page | Why |
-|---|------|-----|
-| 17 | **Financing** | `/financing/` — Only 40% of competitors offer it |
-| 18 | **Commercial Fencing** | `/commercial-fencing/` — Opens B2B pipeline |
-| 19 | **Our Process** | `/our-process/` — 1. Quote 2. Design 3. Install 4. Enjoy |
-| 20 | **Warranty** | `/warranty/` — Trust signal |
-| 21 | **Residential Fencing** | `/residential-fencing/` — Clarifies focus |
-| 22 | **Pool Fencing** | `/pool-fencing/` — High-intent local search |
-
-### SEO Landing Pages (per city)
-
-| Page | URL | Target Keyword |
-|------|-----|----------------|
-| Fence Company Huntsville | `/fence-company-huntsville-al/` | "fence company Huntsville AL" |
-| Fence Installation Madison AL | `/fence-installation-madison-al/` | "fence installation Madison AL" |
-| Fence Contractors Decatur AL | `/fence-contractors-decatur-al/` | "fence contractors Decatur AL" |
+| — | **About** | `/about/` | Local story, team, licenses |
+| — | **Gallery** | `/gallery/` | Categorized by fence type |
+| — | **Testimonials** | `/testimonials/` | Google reviews embed |
+| — | **Contact** | `/contact/` | Form, phone, map, hours |
+| — | **Free Estimate** | `/free-estimate/` | Dedicated quote landing |
+| — | **Privacy Policy** | `/privacy-policy/` | Legal |
 
 ---
 
@@ -105,28 +146,29 @@ Buttons:    Montserrat 600 (semi-bold)
 ```
 ┌──────────────────────────────────────────────────────────────┐
 │ STICKY HEADER                                                 │
-│ [LOGO]  Home  About  Services ▼  Gallery  Blog  Contact       │
-│                                       (256) 555-0199  [FREE ESTIMATE] │
+│ [LOGO]  Home  Services ▼  Locations ▼  Resources ▼  Gallery  Blog  Contact │
+│                                    (256) 555-0199  [FREE ESTIMATE] │
 ├──────────────────────────────────────────────────────────────┤
 │ HERO                                                          │
 │ ┌──────────────────────────────────────────────────────────┐  │
 │ │  Background: high-res photo of real Huntsville fence job │  │
 │ │                                                          │  │
-│ │     Premium Fencing in Huntsville, AL                    │  │
-│ │     Expert installation • Quality materials • Local team  │  │
+│ │     Huntsville's Trusted Fence Experts                   │  │
+│ │     Free Estimates • Quality Materials • Local Team       │  │
 │ │                                                          │  │
 │ │              [Get Your Free Estimate →]                   │  │
 │ └──────────────────────────────────────────────────────────┘  │
 ├──────────────────────────────────────────────────────────────┤
 │ TRUST BADGES BAR                                              │
-│  🛡 Licensed & Insured  |  ★ BBB A+  |  📍 Serving Huntsville  │
+│  🛡 Licensed & Insured  |  ★ BBB A+  |  📍 Serving Huntsville & North AL │
 │  20+ Years  |  ⭐ 4.9 Google Rating  |  🤝 Family-Owned       │
 ├──────────────────────────────────────────────────────────────┤
 │ SERVICES                                                      │
-│  ┌──────────┐  ┌──────────┐  ┌──────────┐  ┌──────────┐  ┌──────────┐ │
-│  │ 🪵 Wood  │  │ 🔗 Chain │  │ ⚜️ Wrought│  │ 🧱 Vinyl │  │ 🚪 Gates │ │
-│  │  Fence   │  │  Link    │  │  Iron     │  │/Composite│  │ & Auto  │ │
-│  └──────────┘  └──────────┘  └──────────┘  └──────────┘  └──────────┘ │
+│  ┌──────────┐  ┌──────────┐  ┌──────────┐  ┌──────────┐  ┌──────────┐ ┌──────────┐ │
+│  │ 🪵 Wood  │  │ 🧱 Vinyl │  │ 🔩 Alum. │  │ 🔗 Chain │  │ 🌿 Privacy│  │ 🚪 Gates │ │
+│  │  Fence   │  │  Fence   │  │  Fence   │  │  Link    │  │  Fence   │  │ & Auto  │ │
+│  └──────────┘  └──────────┘  └──────────┘  └──────────┘  └──────────┘  └──────────┘ │
+│  [View All 15 Services →]                                                     │
 ├──────────────────────────────────────────────────────────────┤
 │ WHY CHOOSE US                                                 │
 │  ✅ Local Huntsville Team        ✅ Premium Materials          │
@@ -150,10 +192,16 @@ Buttons:    Montserrat 600 (semi-bold)
 │  — Sarah T., Madison, AL                                      │
 │  [More Reviews →]  ★ 4.9 Google Rating                        │
 ├──────────────────────────────────────────────────────────────┤
+│ EDUCATIONAL RESOURCES TEASER                                  │
+│  📘 Buying Guides  |  💰 Fence Costs  |  📋 Permits           │
+│  🏠 HOA Rules  |  🔧 Maintenance  |  ⚖️ Comparisons           │
+│  [Visit Resource Center →]                                    │
+├──────────────────────────────────────────────────────────────┤
 │ SERVICE AREA                                                  │
-│  Huntsville  •  Madison  •  Decatur  •  Athens                │
-│  Owens Cross Roads  •  Harvest  •  Meridianville              │
-│  [Google Map Embed]                                           │
+│  Huntsville  •  Madison  •  Athens  •  Decatur  •  Harvest    │
+│  Hazel Green  •  Owens Cross Roads  •  Hampton Cove          │
+│  Meridianville  •  New Market  •  Hartselle  •  Florence      │
+│  [Google Map Embed]  [View All 13 Service Areas →]            │
 ├──────────────────────────────────────────────────────────────┤
 │ FAQ                                                            │
 │  ▸ How much does a fence cost in Huntsville?                  │
@@ -212,7 +260,7 @@ Buttons:    Montserrat 600 (semi-bold)
 ### Gallery
 - Grid layout, 3 columns desktop, 2 tablet, 1 mobile
 - Click to open lightbox
-- Tabs/categories: All | Wood | Chain Link | Iron | Vinyl | Gates
+- Tabs/categories: All | Wood | Vinyl | Aluminum | Chain Link | Privacy | Gates | Commercial
 
 ### FAQ
 - Accordion style, single open at a time
@@ -249,21 +297,32 @@ Hosting:   WP Engine / SiteGround / Kinsta
 
 | Keyword | Target Page |
 |---------|-------------|
-| fence company Huntsville AL | Home, Service Area |
-| fence installation Huntsville | Services |
-| wood fence Huntsville | Wood Fencing |
-| chain link fence Huntsville | Chain Link Fencing |
-| wrought iron fence Huntsville AL | Wrought Iron Fencing |
-| privacy fence Huntsville | Wood Fencing, Vinyl Fencing |
-| fence contractor Madison AL | Per-city landing page |
-| fence repair Huntsville | Blog / Services |
-| pool fence Huntsville AL | Pool Fencing |
-| automatic gates Huntsville | Gates & Automation |
+| fence company Huntsville AL | Home, Location: Huntsville |
+| fence contractor Huntsville AL | Location: Huntsville |
+| fence installation Huntsville AL | Services hub, Location: Huntsville |
+| fence builders Huntsville AL | Services hub, Location: Huntsville |
+| residential fencing Huntsville | Residential Fencing |
+| commercial fencing Huntsville | Commercial Fencing |
+| wood fence installation Huntsville | Wood Fencing |
+| vinyl fence installation Huntsville | Vinyl Fencing |
+| aluminum fence company Huntsville | Aluminum Fencing |
+| chain link fence company Huntsville | Chain Link Fencing |
+| privacy fence installation Huntsville | Privacy Fencing |
+| fence repair Huntsville | Fence Repair |
+| gate installation Huntsville | Automatic Gates, Custom Gates |
+| automatic gate installation Huntsville | Automatic Gates |
+| fence financing Huntsville | Fence Financing |
+| farm fence Huntsville | Farm Fence |
+| pool fence Huntsville AL | Pool Fence |
+| fence near me | Home, Location hub |
+| fence contractor Madison AL | Location: Madison |
+| fence company Athens AL | Location: Athens |
+| fence installation Decatur AL | Location: Decatur |
 
 ### Google Business Profile
 - Name: Fencing Huntsville AL
 - Category: Fence Contractor
-- Service areas: Huntsville, Madison, Decatur, Athens
+- Service areas: Huntsville, Madison, Athens, Decatur, Harvest, Hazel Green, Owens Cross Roads, Hampton Cove, Meridianville, New Market, Hartselle, Florence
 - Attributes: Free estimates, family-owned
 - Posts: Weekly portfolio photos + specials
 
@@ -276,22 +335,43 @@ Hosting:   WP Engine / SiteGround / Kinsta
 
 ---
 
-## Content Plan
+## Educational Resource Center
 
-### Blog Posts (first 10)
+11 content categories for building topical authority (EEAT):
 
-| Title | Target Keyword |
-|-------|----------------|
-| How Much Does a Fence Cost in Huntsville AL? 2026 Guide | fence cost Huntsville AL |
-| Best Privacy Fence Options for Huntsville Homes | privacy fence Huntsville |
-| Wood vs Vinyl Fencing: Which Is Better for Alabama Weather? | wood vs vinyl fence Alabama |
-| Do You Need a Fence Permit in Madison County AL? | fence permit Madison County |
-| Chain Link vs Wrought Iron: A Huntsville Homeowner's Guide | chain link vs wrought iron |
-| 5 Best Fence Materials for Alabama Heat and Humidity | fence materials Alabama |
-| How to Choose a Fence Contractor in Huntsville | fence contractor Huntsville |
-| Pool Fence Requirements in Huntsville AL | pool fence Huntsville |
-| Automatic Gate Installation: What Huntsville Homeowners Should Know | automatic gate Huntsville |
-| The Cost of Wood Fence Repair in Huntsville AL | fence repair Huntsville |
+| Category | Sample Articles |
+|----------|----------------|
+| **Buying Guides** | How to Choose a Fence in Huntsville, Questions to Ask a Fence Contractor |
+| **Fence Costs** | How Much Does a Fence Cost in Huntsville AL?, Cost of Wood vs Vinyl vs Chain Link |
+| **Permits** | Do You Need a Fence Permit in Madison County?, How to Get a Fence Permit in Huntsville |
+| **HOA Rules** | HOA Fencing Guidelines in Huntsville, How to Get HOA Approval for Your Fence |
+| **Fence Maintenance** | How to Clean a Vinyl Fence, Staining a Wood Fence in Alabama Heat |
+| **Materials** | Wood Fencing Guide, Vinyl vs Aluminum vs Chain Link Deep Comparison |
+| **Fence Financing** | Best Fence Financing Options in Huntsville, How to Qualify for Fence Financing |
+| **Property Lines** | How to Find Your Property Line, Fence Boundary Disputes with Neighbors |
+| **Contractor Tips** | How to Hire a Fence Contractor, Red Flags When Choosing a Fence Company |
+| **Comparison Articles** | Wood vs Vinyl Fencing, Chain Link vs Aluminum for Security |
+| **FAQs** | Everything FAQ section — cost, timeline, materials, permits, HOA |
+
+### Blog Posts (first 15)
+
+| Title | Category |
+|-------|----------|
+| How Much Does a Fence Cost in Huntsville AL? 2026 Guide | Fence Costs |
+| Best Privacy Fence Options for Huntsville Homes | Buying Guides |
+| Wood vs Vinyl Fencing: Which Is Better for Alabama Weather? | Comparison Articles |
+| Do You Need a Fence Permit in Madison County AL? | Permits |
+| Chain Link vs Aluminum: A Huntsville Homeowner's Guide | Comparison Articles |
+| 5 Best Fence Materials for Alabama Heat and Humidity | Materials |
+| How to Choose a Fence Contractor in Huntsville | Contractor Tips |
+| Pool Fence Requirements in Huntsville AL | Buying Guides |
+| Automatic Gate Installation: What Huntsville Homeowners Should Know | Buying Guides |
+| The Cost of Wood Fence Repair in Huntsville AL | Fence Costs |
+| HOA Fencing Rules in Huntsville: What You Need to Know | HOA Rules |
+| How to Maintain Your Wood Fence in Alabama's Climate | Fence Maintenance |
+| Top 10 Questions to Ask Before Hiring a Fence Company | Contractor Tips |
+| Farm Fencing Options for North Alabama Properties | Materials |
+| Commercial Fencing Guide for Huntsville Businesses | Buying Guides |
 
 ---
 
@@ -358,12 +438,17 @@ Hosting:   WP Engine / SiteGround / Kinsta
 
 ## Success Metrics
 
-| Metric | Target (6 months) |
-|--------|-------------------|
-| Pages indexed | 30+ |
+| Metric | Target |
+|--------|--------|
+| PageSpeed (mobile) | 95+ |
+| PageSpeed (desktop) | 98-100 |
+| Core Web Vitals | Pass all |
+| Pages indexed | 100+ (with silo architecture) |
 | Google rating | 4.5+ stars |
 | Monthly leads (form) | 20+ |
 | Monthly calls | 40+ |
-| Avg. position local | Top 3 |
+| Avg. position local keywords | Top 3 |
 | Bounce rate | < 45% |
 | Pages per session | 3+ |
+| AI Overview appearance | Yes (via EEAT + topical authority) |
+| Schema types implemented | LocalBusiness, Service, Review, FAQ, BreadcrumbList |
