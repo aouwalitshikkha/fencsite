@@ -58,86 +58,87 @@ Buttons:    Montserrat 600 (semi-bold)
 | Small | 14px | 400 | 1.5 |
 
 ---
-
-## Site Architecture — SEO Silo
+## Site Architecture — SEO Silo — Build Status
 
 ```
-Homepage
-├── Service Pages (hub → 15 individual service pages)
-├── Location Pages (hub → 13 city pages)
-├── Educational Resource Center (hub → 11 categories)
-├── About Us
-├── Gallery / Portfolio
-├── Testimonials / Reviews
-├── Contact
-├── Free Estimate
-└── Privacy Policy / Terms
+Homepage  ✅
+├── Service Pages (hub → 15 individual service pages)   ⏳ 2/16
+├── Location Pages (hub → 12 city pages)                ✅ 13/13
+├── Educational Resource Center (hub → 11 categories)   ❌ 0/12
+├── About Us         ✅
+├── Gallery          ✅
+├── Testimonials     ❌
+├── Contact          ✅
+├── Free Estimate    ❌
+└── Privacy Policy   ❌
 ```
 
-### Service Pages
+### Service Pages (⏳ 2 of 16 done)
 
-| # | Page | URL |
-|---|------|-----|
-| 1 | **Services (hub)** | `/services/` |
-| 2 | **Wood Fencing** | `/wood-fencing/` |
-| 3 | **Vinyl Fencing** | `/vinyl-fencing/` |
-| 4 | **Aluminum Fencing** | `/aluminum-fencing/` |
-| 5 | **Chain Link Fencing** | `/chain-link-fencing/` |
-| 6 | **Privacy Fencing** | `/privacy-fencing/` |
-| 7 | **Commercial Fencing** | `/commercial-fencing/` |
-| 8 | **Residential Fencing** | `/residential-fencing/` |
-| 9 | **Farm Fence** | `/farm-fence/` |
-| 10 | **Pool Fence** | `/pool-fence/` |
-| 11 | **Fence Repair** | `/fence-repair/` |
-| 12 | **Fence Replacement** | `/fence-replacement/` |
-| 13 | **Fence Financing** | `/fence-financing/` |
-| 14 | **Automatic Gates** | `/automatic-gates/` |
-| 15 | **Custom Gates** | `/custom-gates/` |
-| 16 | **Gate Repair** | `/gate-repair/` |
+| # | Page | File | Status |
+|---|------|------|--------|
+| 1 | **Services (hub)** | `services.html` | ✅ |
+| 2 | **Wood Fencing** | `wood-fencing.html` | ✅ |
+| 3 | **Vinyl Fencing** | — | ❌ |
+| 4 | **Aluminum Fencing** | — | ❌ |
+| 5 | **Chain Link Fencing** | — | ❌ |
+| 6 | **Privacy Fencing** | — | ❌ |
+| 7 | **Commercial Fencing** | — | ❌ |
+| 8 | **Residential Fencing** | — | ❌ |
+| 9 | **Farm Fence** | — | ❌ |
+| 10 | **Pool Fence** | — | ❌ |
+| 11 | **Fence Repair** | — | ❌ |
+| 12 | **Fence Replacement** | — | ❌ |
+| 13 | **Fence Financing** | — | ❌ |
+| 14 | **Automatic Gates** | — | ❌ |
+| 15 | **Custom Gates** | — | ❌ |
+| 16 | **Gate Repair** | — | ❌ |
 
-### Location Pages (13 cities)
+### Location Pages (✅ 13 of 13 done — including hub)
 
-| # | City | URL |
-|---|------|-----|
-| 1 | Huntsville | `/huntsville-fence-company/` |
-| 2 | Madison | `/madison-fence-company/` |
-| 3 | Athens | `/athens-fence-company/` |
-| 4 | Decatur | `/decatur-fence-company/` |
-| 5 | Harvest | `/harvest-fence-company/` |
-| 6 | Hazel Green | `/hazel-green-fence-company/` |
-| 7 | Owens Cross Roads | `/owens-cross-roads-fence-company/` |
-| 8 | Hampton Cove | `/hampton-cove-fence-company/` |
-| 9 | Meridianville | `/meridianville-fence-company/` |
-| 10 | New Market | `/new-market-fence-company/` |
-| 11 | Hartselle | `/hartselle-fence-company/` |
-| 12 | Florence | `/florence-fence-company/` |
+| # | City | File | Status |
+|---|------|------|--------|
+| — | **Locations (hub)** | `locations.html` | ✅ |
+| 1 | Huntsville | `huntsville.html` | ✅ |
+| 2 | Madison | `madison-al.html` | ✅ |
+| 3 | Athens | `athens.html` | ✅ |
+| 4 | Decatur | `decatur.html` | ✅ |
+| 5 | Harvest | `harvest.html` | ✅ |
+| 6 | Hazel Green | `hazel-green.html` | ✅ |
+| 7 | Owens Cross Roads | `owens-cross-roads.html` | ✅ |
+| 8 | Hampton Cove | `hampton-cove.html` | ✅ |
+| 9 | Meridianville | `meridianville.html` | ✅ |
+| 10 | New Market | `new-market.html` | ✅ |
+| 11 | Hartselle | `hartselle.html` | ✅ |
+| 12 | Florence | `florence.html` | ✅ |
 
-### Educational Resource Center
+### Educational Resource Center (❌ 0 of 12 done)
 
-| # | Category | URL |
-|---|----------|-----|
-| 1 | Buying Guides | `/resources/buying-guides/` |
-| 2 | Fence Costs | `/resources/fence-costs/` |
-| 3 | Permits | `/resources/permits/` |
-| 4 | HOA Rules | `/resources/hoa-rules/` |
-| 5 | Fence Maintenance | `/resources/maintenance/` |
-| 6 | Materials | `/resources/materials/` |
-| 7 | Fence Financing | `/resources/financing/` |
-| 8 | Property Lines | `/resources/property-lines/` |
-| 9 | Contractor Tips | `/resources/contractor-tips/` |
-| 10 | Comparison Articles | `/resources/comparisons/` |
-| 11 | FAQs | `/faq/` |
+| # | Category | URL | Status |
+|---|----------|-----|--------|
+| — | **Resources (hub)** | `resources.html` | ❌ |
+| 1 | Buying Guides | `resources/buying-guides.html` | ❌ |
+| 2 | Fence Costs | `resources/fence-costs.html` | ❌ |
+| 3 | Permits | `resources/permits.html` | ❌ |
+| 4 | HOA Rules | `resources/hoa-rules.html` | ❌ |
+| 5 | Fence Maintenance | `resources/maintenance.html` | ❌ |
+| 6 | Materials | `resources/materials.html` | ❌ |
+| 7 | Fence Financing | `resources/financing.html` | ❌ |
+| 8 | Property Lines | `resources/property-lines.html` | ❌ |
+| 9 | Contractor Tips | `resources/contractor-tips.html` | ❌ |
+| 10 | Comparison Articles | `resources/comparisons.html` | ❌ |
+| 11 | FAQs | `faq.html` | ❌ |
 
-### Core Pages
+### Core Pages (⏳ 3 of 6 done)
 
-| # | Page | URL | Purpose |
-|---|------|-----|---------|
-| — | **About** | `/about/` | Local story, team, licenses |
-| — | **Gallery** | `/gallery/` | Categorized by fence type |
-| — | **Testimonials** | `/testimonials/` | Google reviews embed |
-| — | **Contact** | `/contact/` | Form, phone, map, hours |
-| — | **Free Estimate** | `/free-estimate/` | Dedicated quote landing |
-| — | **Privacy Policy** | `/privacy-policy/` | Legal |
+| # | Page | File | Status |
+|---|------|------|--------|
+| 1 | **About** | `about.html` | ✅ |
+| 2 | **Gallery** | `gallery.html` | ✅ |
+| 3 | **Contact** | `contact.html` | ✅ |
+| 4 | **Testimonials** | — | ❌ |
+| 5 | **Free Estimate** | — | ❌ |
+| 6 | **Privacy Policy** | — | ❌ |
 
 ---
 
