@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fence Installation Gallery | Fencing Huntsville AL</title>
+  <meta name="description" content="Browse our gallery of completed fence installations in Huntsville AL and Madison County. Wood, vinyl, aluminum, chain link, gates, and commercial fencing projects." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="assets/tailwind.css" />
+  <style>
+    .hero-gallery {
+      background-image: linear-gradient(rgba(10, 46, 77, 0.82), rgba(10, 46, 77, 0.65)), url('https://placehold.co/1600x600/0A2E4D/D4692C?text=Our+Gallery');
+      background-size: cover;
+      background-position: center;
+    }
+    .gallery-img {
+      background-size: cover;
+      background-position: center;
+    }
+    .filter-btn.active {
+      background-color: #D4692C;
+      color: white;
+    }
+  </style>
+</head>
+<body class="font-body text-navy">
+
+  <!-- ========== STICKY HEADER ========== -->
+  <header class="fixed top-0 left-0 right-0 z-50 bg-navy text-white shadow-lg">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="flex items-center justify-between h-16 lg:h-20">
+        <a href="index.html" class="flex items-center gap-2">
+          <i class="fa-solid fa-fence text-burnt-orange text-2xl"></i>
+          <span class="font-heading font-bold text-lg md:text-xl">Fencing Huntsville AL</span>
+        </a>
+
+        <nav class="hidden lg:flex items-center gap-6 text-sm font-semibold">
+          <a href="index.html" class="hover:text-burnt-orange transition">Home</a>
+          <div class="relative group">
+            <a href="services.html" class="hover:text-burnt-orange transition">Services <i class="fa-solid fa-chevron-down text-xs ml-1"></i></a>
+            <div class="absolute top-full left-1/2 -translate-x-1/2 mt-2 bg-white text-navy rounded-lg shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 min-w-[180px] z-50 py-2">
+              <a href="wood-fencing.html" class="block px-4 py-2 hover:bg-soft-gray hover:text-burnt-orange transition whitespace-nowrap">Wood Fencing</a>
+              <a href="#" class="block px-4 py-2 hover:bg-soft-gray hover:text-burnt-orange transition whitespace-nowrap">Vinyl Fencing</a>
+              <a href="#" class="block px-4 py-2 hover:bg-soft-gray hover:text-burnt-orange transition whitespace-nowrap">Aluminum Fencing</a>
+              <a href="#" class="block px-4 py-2 hover:bg-soft-gray hover:text-burnt-orange transition whitespace-nowrap">Chain Link</a>
+              <a href="#" class="block px-4 py-2 hover:bg-soft-gray hover:text-burnt-orange transition whitespace-nowrap">Privacy Fencing</a>
+              <a href="#" class="block px-4 py-2 hover:bg-soft-gray hover:text-burnt-orange transition whitespace-nowrap">Gates &amp; Auto</a>
+            </div>
+          </div>
+          <div class="relative group">
+            <a href="#" class="hover:text-burnt-orange transition">Locations <i class="fa-solid fa-chevron-down text-xs ml-1"></i></a>
+            <div class="absolute top-full left-1/2 -translate-x-1/2 mt-2 bg-white text-navy rounded-lg shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 min-w-[180px] z-50 py-2">
+              <a href="#" class="block px-4 py-2 hover:bg-soft-gray hover:text-burnt-orange transition whitespace-nowrap">Huntsville</a>
+              <a href="madison-al.html" class="block px-4 py-2 hover:bg-soft-gray hover:text-burnt-orange transition whitespace-nowrap">Madison</a>
+              <a href="#" class="block px-4 py-2 hover:bg-soft-gray hover:text-burnt-orange transition whitespace-nowrap">Athens</a>
+              <a href="#" class="block px-4 py-2 hover:bg-soft-gray hover:text-burnt-orange transition whitespace-nowrap">Decatur</a>
+              <a href="#" class="block px-4 py-2 hover:bg-soft-gray hover:text-burnt-orange transition whitespace-nowrap">Harvest</a>
+              <a href="#" class="block px-4 py-2 hover:bg-soft-gray hover:text-burnt-orange transition whitespace-nowrap">Hazel Green</a>
+            </div>
+          </div>
+          <div class="relative group">
+            <a href="#" class="hover:text-burnt-orange transition">Resources <i class="fa-solid fa-chevron-down text-xs ml-1"></i></a>
+            <div class="absolute top-full left-1/2 -translate-x-1/2 mt-2 bg-white text-navy rounded-lg shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 min-w-[180px] z-50 py-2">
+              <a href="#" class="block px-4 py-2 hover:bg-soft-gray hover:text-burnt-orange transition whitespace-nowrap">Buying Guides</a>
+              <a href="#" class="block px-4 py-2 hover:bg-soft-gray hover:text-burnt-orange transition whitespace-nowrap">Fence Costs</a>
+              <a href="#" class="block px-4 py-2 hover:bg-soft-gray hover:text-burnt-orange transition whitespace-nowrap">Permits</a>
+              <a href="#" class="block px-4 py-2 hover:bg-soft-gray hover:text-burnt-orange transition whitespace-nowrap">HOA Rules</a>
+              <a href="#" class="block px-4 py-2 hover:bg-soft-gray hover:text-burnt-orange transition whitespace-nowrap">Maintenance</a>
+              <a href="#" class="block px-4 py-2 hover:bg-soft-gray hover:text-burnt-orange transition whitespace-nowrap">Comparisons</a>
+            </div>
+          </div>
+          <a href="gallery.html" class="text-burnt-orange transition">Gallery</a>
+          <a href="contact.html" class="hover:text-burnt-orange transition">Contact</a>
+        </nav>
+
+        <div class="flex items-center gap-3">
+          <a href="tel:+12565550199" class="hidden sm:flex items-center gap-1.5 text-sm font-semibold hover:text-burnt-orange transition">
+            <i class="fa-solid fa-phone text-burnt-orange"></i>
+            (256) 555-0199
+          </a>
+          <a href="#" class="bg-burnt-orange hover:bg-[#B8571F] text-white font-heading font-semibold text-sm px-4 py-2.5 rounded-md transition shadow-md whitespace-nowrap">
+            Free Estimate
+          </a>
+          <button class="lg:hidden text-white text-xl p-1" aria-label="Menu">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero-gallery min-h-[40vh] flex items-center pt-16">
+    <div class="max-w-7xl mx-auto px-4 py-16 text-center text-white">
+      <h1 class="font-heading font-bold text-4xl md:text-5xl lg:text-6xl leading-tight mb-4">
+        Our Fence Installation Gallery
+      </h1>
+      <p class="text-lg md:text-xl text-gray-200 mb-6 max-w-3xl mx-auto">
+        Browse through our completed projects across Huntsville, Madison, and all of North Alabama.
+      </p>
+      <a href="#gallery-grid" class="inline-flex items-center gap-2 bg-burnt-orange hover:bg-[#B8571F] text-white font-heading font-semibold text-lg px-8 py-4 rounded-md transition shadow-xl">
+        View Our Work <i class="fa-solid fa-arrow-down"></i>
+      </a>
+    </div>
+  </section>
+
+  <!-- ========== TRUST BADGES ========== -->
+  <section class="bg-navy text-white py-4">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="flex flex-wrap justify-center items-center gap-x-8 gap-y-2 text-sm font-semibold">
+        <span class="flex items-center gap-1.5"><i class="fa-solid fa-shield-halved text-success"></i> Licensed &amp; Insured</span>
+        <span class="flex items-center gap-1.5"><i class="fa-solid fa-award text-burnt-orange"></i> BBB A+</span>
+        <span class="flex items-center gap-1.5"><i class="fa-solid fa-calendar-check text-burnt-orange"></i> 20+ Years Experience</span>
+        <span class="flex items-center gap-1.5"><i class="fa-solid fa-star text-yellow-400"></i> 4.9 Google Rating</span>
+        <span class="flex items-center gap-1.5"><i class="fa-solid fa-handshake text-success"></i> Family-Owned</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== GALLERY ========== -->
+  <section id="gallery-grid" class="py-16 md:py-20 bg-soft-gray">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="text-center mb-12">
+        <h2 class="font-heading font-bold text-3xl md:text-4xl mb-4">Completed Projects</h2>
+        <p class="text-gray-600 max-w-2xl mx-auto">Every fence we build reflects our commitment to quality craftsmanship and customer satisfaction. Here are some of our recent installations.</p>
+      </div>
+
+      <!-- Filters -->
+      <div id="filters" class="flex flex-wrap justify-center gap-3 mb-10">
+        <button class="filter-btn active px-5 py-2 rounded-full text-sm font-heading font-semibold border border-gray-300 hover:bg-burnt-orange hover:text-white hover:border-burnt-orange transition" data-filter="all">All</button>
+        <button class="filter-btn px-5 py-2 rounded-full text-sm font-heading font-semibold border border-gray-300 hover:bg-burnt-orange hover:text-white hover:border-burnt-orange transition" data-filter="wood">Wood</button>
+        <button class="filter-btn px-5 py-2 rounded-full text-sm font-heading font-semibold border border-gray-300 hover:bg-burnt-orange hover:text-white hover:border-burnt-orange transition" data-filter="vinyl">Vinyl</button>
+        <button class="filter-btn px-5 py-2 rounded-full text-sm font-heading font-semibold border border-gray-300 hover:bg-burnt-orange hover:text-white hover:border-burnt-orange transition" data-filter="aluminum">Aluminum</button>
+        <button class="filter-btn px-5 py-2 rounded-full text-sm font-heading font-semibold border border-gray-300 hover:bg-burnt-orange hover:text-white hover:border-burnt-orange transition" data-filter="chain-link">Chain Link</button>
+        <button class="filter-btn px-5 py-2 rounded-full text-sm font-heading font-semibold border border-gray-300 hover:bg-burnt-orange hover:text-white hover:border-burnt-orange transition" data-filter="gates">Gates</button>
+        <button class="filter-btn px-5 py-2 rounded-full text-sm font-heading font-semibold border border-gray-300 hover:bg-burnt-orange hover:text-white hover:border-burnt-orange transition" data-filter="commercial">Commercial</button>
+      </div>
+
+      <!-- Grid -->
+      <div id="gallery-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+        <!-- Wood -->
+        <div class="gallery-item group bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all" data-category="wood">
+          <div class="aspect-[4/3] gallery-img" style="background-image: url('https://placehold.co/600x450/0A2E4D/D4692C?text=Privacy+Fence')"></div>
+          <div class="p-4">
+            <span class="text-xs font-heading font-semibold text-burnt-orange uppercase tracking-wider">Wood</span>
+            <h3 class="font-heading font-semibold mt-1">Cedar Privacy Fence</h3>
+            <p class="text-sm text-gray-600 mt-1">6-ft board-on-board cedar fence with lattice toppers — Huntsville, AL</p>
+          </div>
+        </div>
+
+        <div class="gallery-item group bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all" data-category="wood">
+          <div class="aspect-[4/3] gallery-img" style="background-image: url('https://placehold.co/600x450/5D4037/F5F5DC?text=Split+Rail')"></div>
+          <div class="p-4">
+            <span class="text-xs font-heading font-semibold text-burnt-orange uppercase tracking-wider">Wood</span>
+            <h3 class="font-heading font-semibold mt-1">Split Rail Fence</h3>
+            <p class="text-sm text-gray-600 mt-1">3-rail split rail pine fence defining property boundary — Madison, AL</p>
+          </div>
+        </div>
+
+        <div class="gallery-item group bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all" data-category="wood">
+          <div class="aspect-[4/3] gallery-img" style="background-image: url('https://placehold.co/600x450/8B4513/F5F5DC?text=Horizontal')"></div>
+          <div class="p-4">
+            <span class="text-xs font-heading font-semibold text-burnt-orange uppercase tracking-wider">Wood</span>
+            <h3 class="font-heading font-semibold mt-1">Horizontal Wood Fence</h3>
+            <p class="text-sm text-gray-600 mt-1">Modern horizontal cedar fence with steel posts — Huntsville, AL</p>
+          </div>
+        </div>
+
+        <!-- Vinyl -->
+        <div class="gallery-item group bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all" data-category="vinyl">
+          <div class="aspect-[4/3] gallery-img" style="background-image: url('https://placehold.co/600x450/F4F6F8/0A2E4D?text=Vinyl+Privacy')"></div>
+          <div class="p-4">
+            <span class="text-xs font-heading font-semibold text-burnt-orange uppercase tracking-wider">Vinyl</span>
+            <h3 class="font-heading font-semibold mt-1">White Vinyl Privacy Fence</h3>
+            <p class="text-sm text-gray-600 mt-1">6-ft white vinyl privacy fence with scalloped pickets — Harvest, AL</p>
+          </div>
+        </div>
+
+        <div class="gallery-item group bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all" data-category="vinyl">
+          <div class="aspect-[4/3] gallery-img" style="background-image: url('https://placehold.co/600x450/F4F6F8/D4692C?text=Vinyl+Picket')"></div>
+          <div class="p-4">
+            <span class="text-xs font-heading font-semibold text-burnt-orange uppercase tracking-wider">Vinyl</span>
+            <h3 class="font-heading font-semibold mt-1">Vinyl Picket Fence</h3>
+            <p class="text-sm text-gray-600 mt-1">3-ft white vinyl picket fence with gate — Athens, AL</p>
+          </div>
+        </div>
+
+        <div class="gallery-item group bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all" data-category="vinyl">
+          <div class="aspect-[4/3] gallery-img" style="background-image: url('https://placehold.co/600x450/1A1A2E/F4F6F8?text=Vinyl+Semi')"></div>
+          <div class="p-4">
+            <span class="text-xs font-heading font-semibold text-burnt-orange uppercase tracking-wider">Vinyl</span>
+            <h3 class="font-heading font-semibold mt-1">Semi-Privacy Vinyl</h3>
+            <p class="text-sm text-gray-600 mt-1">4-ft semi-privacy vinyl fence — Decatur, AL</p>
+          </div>
+        </div>
+
+        <!-- Aluminum -->
+        <div class="gallery-item group bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all" data-category="aluminum">
+          <div class="aspect-[4/3] gallery-img" style="background-image: url('https://placehold.co/600x450/0A2E4D/D4692C?text=Aluminum+Pool')"></div>
+          <div class="p-4">
+            <span class="text-xs font-heading font-semibold text-burnt-orange uppercase tracking-wider">Aluminum</span>
+            <h3 class="font-heading font-semibold mt-1">Pool Safety Fence</h3>
+            <p class="text-sm text-gray-600 mt-1">Black aluminum pool fence with self-latching gate — Huntsville, AL</p>
+          </div>
+        </div>
+
+        <div class="gallery-item group bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all" data-category="aluminum">
+          <div class="aspect-[4/3] gallery-img" style="background-image: url('https://placehold.co/600x450/2C3E50/BDC3C7?text=Aluminum+Yard')"></div>
+          <div class="p-4">
+            <span class="text-xs font-heading font-semibold text-burnt-orange uppercase tracking-wider">Aluminum</span>
+            <h3 class="font-heading font-semibold mt-1">Yard Enclosure Fence</h3>
+            <p class="text-sm text-gray-600 mt-1">4-ft black aluminum fence with decorative rings — Madison, AL</p>
+          </div>
+        </div>
+
+        <div class="gallery-item group bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all" data-category="aluminum">
+          <div class="aspect-[4/3] gallery-img" style="background-image: url('https://placehold.co/600x450/34495E/ECF0F1?text=Aluminum+Drive')"></div>
+          <div class="p-4">
+            <span class="text-xs font-heading font-semibold text-burnt-orange uppercase tracking-wider">Aluminum</span>
+            <h3 class="font-heading font-semibold mt-1">Driveway Gates + Fence</h3>
+            <p class="text-sm text-gray-600 mt-1">Pair of 12-ft aluminum driveway gates with matching fencing — Huntsville, AL</p>
+          </div>
+        </div>
+
+        <!-- Chain Link -->
+        <div class="gallery-item group bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all" data-category="chain-link">
+          <div class="aspect-[4/3] gallery-img" style="background-image: url('https://placehold.co/600x450/7F8C8D/FFFFFF?text=Chain+Link+Yard')"></div>
+          <div class="p-4">
+            <span class="text-xs font-heading font-semibold text-burnt-orange uppercase tracking-wider">Chain Link</span>
+            <h3 class="font-heading font-semibold mt-1">Backyard Dog Run</h3>
+            <p class="text-sm text-gray-600 mt-1">4-ft galvanized chain link with tension wire — Hazel Green, AL</p>
+          </div>
+        </div>
+
+        <div class="gallery-item group bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all" data-category="chain-link">
+          <div class="aspect-[4/3] gallery-img" style="background-image: url('https://placehold.co/600x450/95A5A6/FFFFFF?text=Chain+Link+Comm')"></div>
+          <div class="p-4">
+            <span class="text-xs font-heading font-semibold text-burnt-orange uppercase tracking-wider">Chain Link</span>
+            <h3 class="font-heading font-semibold mt-1">Commercial Security Fence</h3>
+            <p class="text-sm text-gray-600 mt-1">8-ft black vinyl chain link with barbed wire — Huntsville, AL</p>
+          </div>
+        </div>
+
+        <div class="gallery-item group bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all" data-category="chain-link">
+          <div class="aspect-[4/3] gallery-img" style="background-image: url('https://placehold.co/600x450/6C7A89/FFFFFF?text=Chain+Link+Tennis')"></div>
+          <div class="p-4">
+            <span class="text-xs font-heading font-semibold text-burnt-orange uppercase tracking-wider">Chain Link</span>
+            <h3 class="font-heading font-semibold mt-1">Tennis Court Enclosure</h3>
+            <p class="text-sm text-gray-600 mt-1">10-ft galvanized chain link with tension bars — Madison, AL</p>
+          </div>
+        </div>
+
+        <!-- Gates -->
+        <div class="gallery-item group bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all" data-category="gates">
+          <div class="aspect-[4/3] gallery-img" style="background-image: url('https://placehold.co/600x450/0A2E4D/D4692C?text=Auto+Gate')"></div>
+          <div class="p-4">
+            <span class="text-xs font-heading font-semibold text-burnt-orange uppercase tracking-wider">Gates</span>
+            <h3 class="font-heading font-semibold mt-1">Automatic Slide Gate</h3>
+            <p class="text-sm text-gray-600 mt-1">20-ft automatic sliding gate with keypad entry — Huntsville, AL</p>
+          </div>
+        </div>
+
+        <div class="gallery-item group bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all" data-category="gates">
+          <div class="aspect-[4/3] gallery-img" style="background-image: url('https://placehold.co/600x450/D4692C/FFFFFF?text=Wood+Gate')"></div>
+          <div class="p-4">
+            <span class="text-xs font-heading font-semibold text-burnt-orange uppercase tracking-wider">Gates</span>
+            <h3 class="font-heading font-semibold mt-1">Custom Wood Driveway Gate</h3>
+            <p class="text-sm text-gray-600 mt-1">16-ft double cedar driveway gate with wrought iron accents — Huntsville, AL</p>
+          </div>
+        </div>
+
+        <div class="gallery-item group bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all" data-category="gates">
+          <div class="aspect-[4/3] gallery-img" style="background-image: url('https://placehold.co/600x450/2C3E50/BDC3C7?text=Walk+Gate')"></div>
+          <div class="p-4">
+            <span class="text-xs font-heading font-semibold text-burnt-orange uppercase tracking-wider">Gates</span>
+            <h3 class="font-heading font-semibold mt-1">Aluminum Walk Gate</h3>
+            <p class="text-sm text-gray-600 mt-1">4-ft black aluminum walk gate with key lock — Madison, AL</p>
+          </div>
+        </div>
+
+        <!-- Commercial -->
+        <div class="gallery-item group bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all" data-category="commercial">
+          <div class="aspect-[4/3] gallery-img" style="background-image: url('https://placehold.co/600x450/1A237E/E8EAF6?text=Commercial+Site')"></div>
+          <div class="p-4">
+            <span class="text-xs font-heading font-semibold text-burnt-orange uppercase tracking-wider">Commercial</span>
+            <h3 class="font-heading font-semibold mt-1">Office Park Perimeter</h3>
+            <p class="text-sm text-gray-600 mt-1">6-ft black aluminum fence around commercial office park — Huntsville, AL</p>
+          </div>
+        </div>
+
+        <div class="gallery-item group bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all" data-category="commercial">
+          <div class="aspect-[4/3] gallery-img" style="background-image: url('https://placehold.co/600x450/0A2E4D/D4692C?text=Industrial+Site')"></div>
+          <div class="p-4">
+            <span class="text-xs font-heading font-semibold text-burnt-orange uppercase tracking-wider">Commercial</span>
+            <h3 class="font-heading font-semibold mt-1">Industrial Security Fence</h3>
+            <p class="text-sm text-gray-600 mt-1">10-ft chain link with three-strand barbed wire — Decatur, AL</p>
+          </div>
+        </div>
+
+        <div class="gallery-item group bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all" data-category="commercial">
+          <div class="aspect-[4/3] gallery-img" style="background-image: url('https://placehold.co/600x450/33691E/FFFFFF?text=School+Fence')"></div>
+          <div class="p-4">
+            <span class="text-xs font-heading font-semibold text-burnt-orange uppercase tracking-wider">Commercial</span>
+            <h3 class="font-heading font-semibold mt-1">School Playground Enclosure</h3>
+            <p class="text-sm text-gray-600 mt-1">6-ft black vinyl chain link with privacy slats — Athens, AL</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CTA ========== -->
+  <section class="py-16 md:py-20 bg-navy text-white text-center">
+    <div class="max-w-3xl mx-auto px-4">
+      <h2 class="font-heading font-bold text-3xl md:text-4xl mb-4">Ready to Start Your Project?</h2>
+      <p class="text-lg text-gray-300 mb-8">Whether you need privacy, security, or curb appeal — we'll help you choose the perfect fence. Get a free, no-obligation estimate today.</p>
+      <div class="flex flex-col sm:flex-row justify-center gap-4">
+        <a href="contact.html" class="inline-flex items-center gap-2 bg-burnt-orange hover:bg-[#B8571F] text-white font-heading font-semibold text-lg px-8 py-4 rounded-md transition shadow-xl">
+          Get Free Estimate <i class="fa-solid fa-arrow-right"></i>
+        </a>
+        <a href="tel:+12565550199" class="inline-flex items-center gap-2 border-2 border-white/30 hover:border-white/50 text-white font-heading font-semibold text-lg px-8 py-4 rounded-md transition">
+          <i class="fa-solid fa-phone"></i> (256) 555-0199
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="bg-navy text-white border-t border-white/10">
+    <div class="max-w-7xl mx-auto px-4 py-12">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
+        <div class="lg:col-span-2">
+          <div class="flex items-center gap-2 mb-4">
+            <i class="fa-solid fa-fence text-burnt-orange text-2xl"></i>
+            <span class="font-heading font-bold text-lg">Fencing Huntsville AL</span>
+          </div>
+          <p class="text-sm text-gray-400 max-w-xs leading-relaxed mb-4">Huntsville's trusted fence company since 2004. Family-owned, locally operated, and committed to quality craftsmanship.</p>
+          <div class="flex gap-3">
+            <a href="#" class="w-9 h-9 bg-white/10 hover:bg-burnt-orange rounded-full flex items-center justify-center transition" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" class="w-9 h-9 bg-white/10 hover:bg-burnt-orange rounded-full flex items-center justify-center transition" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="w-9 h-9 bg-white/10 hover:bg-burnt-orange rounded-full flex items-center justify-center transition" aria-label="Google"><i class="fa-brands fa-google"></i></a>
+            <a href="#" class="w-9 h-9 bg-white/10 hover:bg-burnt-orange rounded-full flex items-center justify-center transition" aria-label="Yelp"><i class="fa-brands fa-yelp"></i></a>
+          </div>
+        </div>
+        <div>
+          <h4 class="font-heading font-semibold text-sm uppercase tracking-wider mb-4">Quick Links</h4>
+          <ul class="space-y-2 text-sm text-gray-400">
+            <li><a href="index.html" class="hover:text-burnt-orange transition">Home</a></li>
+            <li><a href="#" class="hover:text-burnt-orange transition">About Us</a></li>
+            <li><a href="services.html" class="hover:text-burnt-orange transition">Services</a></li>
+            <li><a href="gallery.html" class="text-burnt-orange transition">Gallery</a></li>
+            <li><a href="#" class="hover:text-burnt-orange transition">Testimonials</a></li>
+            <li><a href="contact.html" class="hover:text-burnt-orange transition">Contact</a></li>
+            <li><a href="#" class="hover:text-burnt-orange transition">Free Estimate</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-heading font-semibold text-sm uppercase tracking-wider mb-4">Services</h4>
+          <ul class="space-y-2 text-sm text-gray-400">
+            <li><a href="#" class="hover:text-burnt-orange transition">Wood Fencing</a></li>
+            <li><a href="#" class="hover:text-burnt-orange transition">Vinyl Fencing</a></li>
+            <li><a href="#" class="hover:text-burnt-orange transition">Aluminum Fencing</a></li>
+            <li><a href="#" class="hover:text-burnt-orange transition">Chain Link Fencing</a></li>
+            <li><a href="#" class="hover:text-burnt-orange transition">Privacy Fencing</a></li>
+            <li><a href="#" class="hover:text-burnt-orange transition">Gate Installation</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-heading font-semibold text-sm uppercase tracking-wider mb-4">Contact</h4>
+          <ul class="space-y-3 text-sm text-gray-400">
+            <li class="flex items-start gap-2">
+              <i class="fa-solid fa-phone text-burnt-orange mt-0.5"></i>
+              <a href="tel:+12565550199" class="hover:text-burnt-orange transition">(256) 555-0199</a>
+            </li>
+            <li class="flex items-start gap-2">
+              <i class="fa-solid fa-envelope text-burnt-orange mt-0.5"></i>
+              <a href="mailto:info@fencinghuntsvilleal.com" class="hover:text-burnt-orange transition">info@fencinghuntsvilleal.com</a>
+            </li>
+            <li class="flex items-start gap-2">
+              <i class="fa-solid fa-location-dot text-burnt-orange mt-0.5"></i>
+              <span>Huntsville, AL<br />Serving Madison County &amp; beyond</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="border-t border-white/10 py-6">
+      <div class="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-gray-500">
+        <p>&copy; 2026 Fencing Huntsville AL. All rights reserved.</p>
+        <div class="flex gap-4">
+          <a href="#" class="hover:text-burnt-orange transition">Privacy Policy</a>
+          <a href="#" class="hover:text-burnt-orange transition">Terms of Service</a>
+          <a href="#" class="hover:text-burnt-orange transition">Sitemap</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const filterButtons = document.querySelectorAll('.filter-btn');
+    const galleryItems = document.querySelectorAll('.gallery-item');
+
+    filterButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        filterButtons.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        const filter = btn.dataset.filter;
+        galleryItems.forEach(item => {
+          if (filter === 'all' || item.dataset.category === filter) {
+            item.style.display = '';
+          } else {
+            item.style.display = 'none';
+          }
+        });
+      });
+    });
+  </script>
+
+</body>
+</html>
