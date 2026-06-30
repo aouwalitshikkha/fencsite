@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme {
+  --font-heading: 'Montserrat', sans-serif;
+  --font-body: 'Open Sans', sans-serif;
+  --color-navy: #0A2E4D;
+  --color-burnt-orange: #D4692C;
+  --color-soft-gray: #F4F6F8;
+  --color-dark: #1A1A2E;
+  --color-success: #2E7D32;
+}
+
+html { scroll-behavior: smooth; }
+
+.faq-item.active .faq-answer {
+  max-height: 300px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.faq-item.active .faq-icon {
+  transform: rotate(45deg);
+}
+
+.hero-bg {
+  background-image: linear-gradient(rgba(10, 46, 77, 0.75), rgba(10, 46, 77, 0.6)), url('https://placehold.co/1600x900/1A1A2E/D4692C?text=Fence+Project');
+  background-size: cover;
+  background-position: center;
+}
