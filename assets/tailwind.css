@@ -936,6 +936,16 @@
       }
     }
   }
+  .group-hover\:bg-burnt-orange\/10 {
+    &:is(:where(.group):hover *) {
+      @media (hover: hover) {
+        background-color: color-mix(in srgb, #D4692C 10%, transparent);
+        @supports (color: color-mix(in lab, red, red)) {
+          background-color: color-mix(in oklab, var(--color-burnt-orange) 10%, transparent);
+        }
+      }
+    }
+  }
   .group-hover\:text-burnt-orange {
     &:is(:where(.group):hover *) {
       @media (hover: hover) {
