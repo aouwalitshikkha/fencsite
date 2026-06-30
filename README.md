@@ -405,26 +405,26 @@ Hosting:   WP Engine / SiteGround / Kinsta
 
 ### All 18 Sites Analyzed
 
-| # | Site | URL | Location | Notes |
-|---|------|-----|----------|-------|
-| 1 | Southland Fence | southlandfence.com | — | Returned 403 |
-| 2 | Tim's Fences | timsfences.com | Stafford, TX | Draw Your Fence tool, etiquette letter, FAQ |
-| 3 | Colormax NA | colormaxna.com | — | GoDaddy builder, thin content, product supplier |
-| 4 | Western Fence Company | westernfencecompany.net | Phoenix, AZ | 75+ years, per-industry pages, commercial only |
-| 5 | Fence Company Phoenix AZ | fencecompanyphoenixaz.com | Phoenix, AZ | Underutilized Elementor, missing gallery |
-| 6 | Royal Fence Chicago | royalfencechicago.com | South Elgin, IL | Coverage area page, accessibility toolbar |
-| 7 | Alamo Decks & Fence | alamodecksandfence.com | San Antonio, TX | **Best pricing transparency**, Hearth financing, employment page |
-| 8 | Missouri City Fence | missouricityfence.com | Missouri City, TX | DIY Spec Check tool, A+ BBB 13 years |
-| 9 | Comal Fence | comalfence.com | San Antonio, TX | 30+ years, family-owned, A+ BBB |
-| 10 | Pinecrest Services | pinecrest.services | Philadelphia, PA | Headless Next.js + WP, tree service + fencing hybrid |
-| 11 | Fence Masters Inc | fencemastersinc.com | Chicago Heights, IL | 50K+ fences installed, in-house PVC fabrication |
-| 12 | Reliabulit Fence Company | reliabuiltfencecompany.com | Escondido, CA | Custom builder, thin content |
-| 13 | JPL Construction TX | jplconstructiontx.com | Garland, TX | Squarespace, per-city location pages |
-| 14 | Double Eagle Fence | doubleeaglefence.com | Mansfield, TX | **Best service area breakdown** (45+ cities by county) |
-| 15 | Viking Fence | vikingfence.com | Austin, TX | Hybrid contractor + supplier + rentals, 6 locations, 70+ blog posts |
-| 16 | Peerless Fence | peerlessfence.com | — | Returned 403 |
-| 17 | Griffin Fence | griffinfence.com | Houston, TX | **#1 overall** — 30+ sub-service pages, categorized gallery, estimator, 45+ years |
-| 18 | Trinity River Fence | trinityriverfence.com | — | Unreachable |
+| # | Site | URL | Location | Service Type | Notes |
+|---|------|-----|----------|-------------|-------|
+| 1 | Southland Fence | southlandfence.com | — | — | Returned 403 |
+| 2 | Tim's Fences | timsfences.com | Stafford, TX | Residential | Draw Your Fence tool, etiquette letter, FAQ |
+| 3 | Colormax NA | colormaxna.com | — | — | GoDaddy builder, thin content, product supplier |
+| 4 | Western Fence Company | westernfencecompany.net | Phoenix, AZ | Commercial | 75+ years, per-industry pages, commercial only |
+| 5 | Fence Company Phoenix AZ | fencecompanyphoenixaz.com | Phoenix, AZ | — | Underutilized Elementor, missing gallery |
+| 6 | Royal Fence Chicago | royalfencechicago.com | South Elgin, IL | Both | Coverage area page, accessibility toolbar |
+| 7 | Alamo Decks & Fence | alamodecksandfence.com | San Antonio, TX | Both | **Best pricing transparency**, Hearth financing, employment page |
+| 8 | Missouri City Fence | missouricityfence.com | Missouri City, TX | Both | DIY Spec Check tool, A+ BBB 13 years |
+| 9 | Comal Fence | comalfence.com | San Antonio, TX | Both | 30+ years, family-owned, A+ BBB |
+| 10 | Pinecrest Services | pinecrest.services | Philadelphia, PA | Both | Headless Next.js + WP, tree service + fencing hybrid |
+| 11 | Fence Masters Inc | fencemastersinc.com | Chicago Heights, IL | Both | 50K+ fences installed, in-house PVC fabrication |
+| 12 | Reliabulit Fence Company | reliabuiltfencecompany.com | Escondido, CA | — | Custom builder, thin content |
+| 13 | JPL Construction TX | jplconstructiontx.com | Garland, TX | Both | Squarespace, per-city location pages |
+| 14 | Double Eagle Fence | doubleeaglefence.com | Mansfield, TX | Both | **Best service area breakdown** (45+ cities by county) |
+| 15 | Viking Fence | vikingfence.com | Austin, TX | Both | Hybrid contractor + supplier + rentals, 6 locations, 70+ blog posts |
+| 16 | Peerless Fence | peerlessfence.com | — | — | Returned 403 |
+| 17 | Griffin Fence | griffinfence.com | Houston, TX | Both | **#1 overall** — 30+ sub-service pages, categorized gallery, estimator, 45+ years |
+| 18 | Trinity River Fence | trinityriverfence.com | — | — | Unreachable |
 
 ### Top 3 to Model After
 
